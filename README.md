@@ -1,0 +1,1 @@
+Slides and materials in this repository are from a lecture/workshop I have given as part of the Advanced Statistics course at the Department of Experimental Psychology (University of Oxford). Without context, the slides might be of limited use, but perhaps someone will find the examples useful nonetheless.
