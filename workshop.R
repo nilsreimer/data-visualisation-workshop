@@ -21,7 +21,7 @@ rm(list = ls())
 # Functions ---------------------------------------------------------------
   export_png <- function(name) {
     ggsave(
-      file = paste0("figures/practice/", name, ".png"),
+      file = paste0("practice/", name, ".png"),
       width = 19.05, height = 19.05, units = "cm",
       type = "cairo-png", dpi = 600
     )
@@ -56,7 +56,7 @@ rm(list = ls())
   # three experimental conditions. Use a bar plot (see above) with        #
   # aes(fill = condition) and position = "dodge" to differentiate between #
   # conditions. Alternatively, try mapping condition to the x-axis and    #
-  # use fill = time to differentiate between time point.                  #
+  # use fill = time to differentiate between time points.                  #
   #########################################################################
   
   
